@@ -29,183 +29,185 @@ namespace ProjectContactTracingApp
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.lblFn = new System.Windows.Forms.Label();
+            this.lblCn = new System.Windows.Forms.Label();
+            this.lblTemp = new System.Windows.Forms.Label();
+            this.lblSex = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
+            this.lblLn = new System.Windows.Forms.Label();
+            this.lblMi = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.lblHc = new System.Windows.Forms.Label();
+            this.lblFever = new System.Windows.Forms.Label();
+            this.lblDc = new System.Windows.Forms.Label();
+            this.lblHa = new System.Windows.Forms.Label();
+            this.lblOthers = new System.Windows.Forms.Label();
+            this.lblAyav = new System.Windows.Forms.Label();
+            this.lblSt = new System.Windows.Forms.Label();
+            this.lblHcc = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // lblFn
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(60, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lblFn.AutoSize = true;
+            this.lblFn.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFn.Location = new System.Drawing.Point(25, 28);
+            this.lblFn.Name = "lblFn";
+            this.lblFn.Size = new System.Drawing.Size(110, 25);
+            this.lblFn.TabIndex = 0;
+            this.lblFn.Text = "FIRSTNAME";
             // 
-            // label2
+            // lblCn
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(25, 118);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.lblCn.AutoSize = true;
+            this.lblCn.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCn.Location = new System.Drawing.Point(25, 118);
+            this.lblCn.Name = "lblCn";
+            this.lblCn.Size = new System.Drawing.Size(172, 25);
+            this.lblCn.TabIndex = 1;
+            this.lblCn.Text = "CONTACT NUMBER";
             // 
-            // label3
+            // lblTemp
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(699, 75);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.lblTemp.AutoSize = true;
+            this.lblTemp.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTemp.Location = new System.Drawing.Point(699, 75);
+            this.lblTemp.Name = "lblTemp";
+            this.lblTemp.Size = new System.Drawing.Size(114, 25);
+            this.lblTemp.TabIndex = 2;
+            this.lblTemp.Text = "Temperature";
             // 
-            // label4
+            // lblSex
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(350, 75);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.lblSex.AutoSize = true;
+            this.lblSex.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSex.Location = new System.Drawing.Point(350, 75);
+            this.lblSex.Name = "lblSex";
+            this.lblSex.Size = new System.Drawing.Size(41, 25);
+            this.lblSex.TabIndex = 3;
+            this.lblSex.Text = "Sex";
             // 
-            // label5
+            // lblAge
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(25, 75);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 25);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.lblAge.AutoSize = true;
+            this.lblAge.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAge.Location = new System.Drawing.Point(25, 75);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(47, 25);
+            this.lblAge.TabIndex = 4;
+            this.lblAge.Text = "AGE";
             // 
-            // label6
+            // lblLn
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(699, 28);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 25);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
+            this.lblLn.AutoSize = true;
+            this.lblLn.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLn.Location = new System.Drawing.Point(699, 28);
+            this.lblLn.Name = "lblLn";
+            this.lblLn.Size = new System.Drawing.Size(104, 25);
+            this.lblLn.TabIndex = 5;
+            this.lblLn.Text = "LASTNAME";
             // 
-            // label7
+            // lblMi
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(350, 28);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 25);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "label7";
+            this.lblMi.AutoSize = true;
+            this.lblMi.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMi.Location = new System.Drawing.Point(350, 28);
+            this.lblMi.Name = "lblMi";
+            this.lblMi.Size = new System.Drawing.Size(132, 25);
+            this.lblMi.TabIndex = 6;
+            this.lblMi.Text = "MIDDLEINITIAL";
             // 
-            // label8
+            // lblAddress
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(25, 158);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(60, 25);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "label8";
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.Location = new System.Drawing.Point(25, 158);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.lblAddress.Size = new System.Drawing.Size(92, 25);
+            this.lblAddress.TabIndex = 7;
+            this.lblAddress.Text = "ADDRESS";
             // 
-            // label9
+            // lblHc
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(25, 200);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(60, 25);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "label9";
+            this.lblHc.AutoSize = true;
+            this.lblHc.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHc.Location = new System.Drawing.Point(25, 200);
+            this.lblHc.Name = "lblHc";
+            this.lblHc.Size = new System.Drawing.Size(182, 25);
+            this.lblHc.TabIndex = 8;
+            this.lblHc.Text = "HEALTH CONDITION:";
             // 
-            // label10
+            // lblFever
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(183, 200);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 25);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "label10";
+            this.lblFever.AutoSize = true;
+            this.lblFever.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFever.Location = new System.Drawing.Point(25, 250);
+            this.lblFever.Name = "lblFever";
+            this.lblFever.Size = new System.Drawing.Size(68, 25);
+            this.lblFever.TabIndex = 10;
+            this.lblFever.Text = "FEVER";
             // 
-            // label11
+            // lblDc
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(25, 250);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(70, 25);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "label11";
+            this.lblDc.AutoSize = true;
+            this.lblDc.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDc.Location = new System.Drawing.Point(213, 250);
+            this.lblDc.Name = "lblDc";
+            this.lblDc.Size = new System.Drawing.Size(115, 25);
+            this.lblDc.TabIndex = 11;
+            this.lblDc.Text = "DRY COUGH";
             // 
-            // label12
+            // lblHa
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(213, 250);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(70, 25);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "label12";
+            this.lblHa.AutoSize = true;
+            this.lblHa.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHa.Location = new System.Drawing.Point(492, 250);
+            this.lblHa.Name = "lblHa";
+            this.lblHa.Size = new System.Drawing.Size(104, 25);
+            this.lblHa.TabIndex = 12;
+            this.lblHa.Text = "HEADACHE";
             // 
-            // label13
+            // lblOthers
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(492, 250);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(70, 25);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "label13";
+            this.lblOthers.AutoSize = true;
+            this.lblOthers.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOthers.Location = new System.Drawing.Point(25, 298);
+            this.lblOthers.Name = "lblOthers";
+            this.lblOthers.Size = new System.Drawing.Size(82, 25);
+            this.lblOthers.TabIndex = 13;
+            this.lblOthers.Text = "OTHERS";
             // 
-            // label14
+            // lblAyav
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(25, 298);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(70, 25);
-            this.label14.TabIndex = 13;
-            this.label14.Text = "label14";
+            this.lblAyav.AutoSize = true;
+            this.lblAyav.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAyav.Location = new System.Drawing.Point(25, 347);
+            this.lblAyav.Name = "lblAyav";
+            this.lblAyav.Size = new System.Drawing.Size(294, 25);
+            this.lblAyav.TabIndex = 14;
+            this.lblAyav.Text = "ARE YOU ALREADY VACCINATED?";
             // 
-            // label15
+            // lblSt
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(25, 347);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(70, 25);
-            this.label15.TabIndex = 14;
-            this.label15.Text = "label15";
+            this.lblSt.AutoSize = true;
+            this.lblSt.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSt.Location = new System.Drawing.Point(699, 250);
+            this.lblSt.Name = "lblSt";
+            this.lblSt.Size = new System.Drawing.Size(134, 25);
+            this.lblSt.TabIndex = 15;
+            this.lblSt.Text = "SORE THROAT";
             // 
-            // label16
+            // lblHcc
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(699, 250);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(70, 25);
-            this.label16.TabIndex = 15;
-            this.label16.Text = "label16";
+            this.lblHcc.AutoSize = true;
+            this.lblHcc.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHcc.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.lblHcc.Location = new System.Drawing.Point(213, 200);
+            this.lblHcc.Name = "lblHcc";
+            this.lblHcc.Size = new System.Drawing.Size(520, 25);
+            this.lblHcc.TabIndex = 16;
+            this.lblHcc.Text = "(Please type YES if you had experience those health conditions)";
             // 
             // Form1
             // 
@@ -213,22 +215,22 @@ namespace ProjectContactTracingApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(984, 509);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblHcc);
+            this.Controls.Add(this.lblSt);
+            this.Controls.Add(this.lblAyav);
+            this.Controls.Add(this.lblOthers);
+            this.Controls.Add(this.lblHa);
+            this.Controls.Add(this.lblDc);
+            this.Controls.Add(this.lblFever);
+            this.Controls.Add(this.lblHc);
+            this.Controls.Add(this.lblAddress);
+            this.Controls.Add(this.lblMi);
+            this.Controls.Add(this.lblLn);
+            this.Controls.Add(this.lblAge);
+            this.Controls.Add(this.lblSex);
+            this.Controls.Add(this.lblTemp);
+            this.Controls.Add(this.lblCn);
+            this.Controls.Add(this.lblFn);
             this.Name = "Form1";
             this.Text = "Contact Tracing ";
             this.ResumeLayout(false);
@@ -238,22 +240,22 @@ namespace ProjectContactTracingApp
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lblFn;
+        private System.Windows.Forms.Label lblCn;
+        private System.Windows.Forms.Label lblTemp;
+        private System.Windows.Forms.Label lblSex;
+        private System.Windows.Forms.Label lblAge;
+        private System.Windows.Forms.Label lblLn;
+        private System.Windows.Forms.Label lblMi;
+        private System.Windows.Forms.Label lblAddress;
+        private System.Windows.Forms.Label lblHc;
+        private System.Windows.Forms.Label lblFever;
+        private System.Windows.Forms.Label lblDc;
+        private System.Windows.Forms.Label lblHa;
+        private System.Windows.Forms.Label lblOthers;
+        private System.Windows.Forms.Label lblAyav;
+        private System.Windows.Forms.Label lblSt;
+        private System.Windows.Forms.Label lblHcc;
     }
 }
 
