@@ -38,5 +38,10 @@ namespace ProjectContactTracingApp
         {
             personsBindingSource.RemoveCurrent();
         }
+
+        private void btnFirst_Click(object sender, EventArgs e)
+        {
+            personsBindingSource.MoveFirst();
+        }
     }
 }
