@@ -45,6 +45,20 @@ namespace ProjectContactTracingApp
             this.lblAyav = new System.Windows.Forms.Label();
             this.lblSt = new System.Windows.Forms.Label();
             this.lblHcc = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lblFn
@@ -71,21 +85,21 @@ namespace ProjectContactTracingApp
             // 
             this.lblTemp.AutoSize = true;
             this.lblTemp.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTemp.Location = new System.Drawing.Point(699, 75);
+            this.lblTemp.Location = new System.Drawing.Point(627, 76);
             this.lblTemp.Name = "lblTemp";
-            this.lblTemp.Size = new System.Drawing.Size(114, 25);
+            this.lblTemp.Size = new System.Drawing.Size(140, 25);
             this.lblTemp.TabIndex = 2;
-            this.lblTemp.Text = "Temperature";
+            this.lblTemp.Text = "TEMPERATURE";
             // 
             // lblSex
             // 
             this.lblSex.AutoSize = true;
             this.lblSex.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSex.Location = new System.Drawing.Point(350, 75);
+            this.lblSex.Location = new System.Drawing.Point(350, 74);
             this.lblSex.Name = "lblSex";
-            this.lblSex.Size = new System.Drawing.Size(41, 25);
+            this.lblSex.Size = new System.Drawing.Size(45, 25);
             this.lblSex.TabIndex = 3;
-            this.lblSex.Text = "Sex";
+            this.lblSex.Text = "SEX";
             // 
             // lblAge
             // 
@@ -101,7 +115,7 @@ namespace ProjectContactTracingApp
             // 
             this.lblLn.AutoSize = true;
             this.lblLn.Font = new System.Drawing.Font("Arial Narrow", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLn.Location = new System.Drawing.Point(699, 28);
+            this.lblLn.Location = new System.Drawing.Point(627, 28);
             this.lblLn.Name = "lblLn";
             this.lblLn.Size = new System.Drawing.Size(104, 25);
             this.lblLn.TabIndex = 5;
@@ -209,12 +223,138 @@ namespace ProjectContactTracingApp
             this.lblHcc.TabIndex = 16;
             this.lblHcc.Text = "(Please type YES if you had experience those health conditions)";
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(141, 27);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(203, 26);
+            this.textBox1.TabIndex = 17;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(488, 27);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(133, 26);
+            this.textBox2.TabIndex = 18;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(737, 27);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(222, 26);
+            this.textBox3.TabIndex = 19;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(78, 74);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(266, 26);
+            this.textBox4.TabIndex = 20;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(401, 75);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(220, 26);
+            this.textBox5.TabIndex = 21;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox6.Location = new System.Drawing.Point(769, 73);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(190, 26);
+            this.textBox6.TabIndex = 22;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Location = new System.Drawing.Point(203, 117);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(756, 26);
+            this.textBox7.TabIndex = 23;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.Location = new System.Drawing.Point(123, 157);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(836, 26);
+            this.textBox8.TabIndex = 24;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox9.Location = new System.Drawing.Point(99, 249);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(108, 26);
+            this.textBox9.TabIndex = 25;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox10.Location = new System.Drawing.Point(334, 249);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(152, 26);
+            this.textBox10.TabIndex = 26;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox11.Location = new System.Drawing.Point(602, 249);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(91, 26);
+            this.textBox11.TabIndex = 27;
+            // 
+            // textBox12
+            // 
+            this.textBox12.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox12.Location = new System.Drawing.Point(839, 249);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(120, 26);
+            this.textBox12.TabIndex = 28;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox13.Location = new System.Drawing.Point(113, 297);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(846, 26);
+            this.textBox13.TabIndex = 29;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox14.Location = new System.Drawing.Point(325, 346);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(634, 26);
+            this.textBox14.TabIndex = 30;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(984, 509);
+            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lblHcc);
             this.Controls.Add(this.lblSt);
             this.Controls.Add(this.lblAyav);
@@ -256,6 +396,20 @@ namespace ProjectContactTracingApp
         private System.Windows.Forms.Label lblAyav;
         private System.Windows.Forms.Label lblSt;
         private System.Windows.Forms.Label lblHcc;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox14;
     }
 }
 
