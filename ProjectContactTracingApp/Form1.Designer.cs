@@ -438,6 +438,7 @@ namespace ProjectContactTracingApp
             this.btnNext.TabIndex = 36;
             this.btnNext.Text = "NEXT";
             this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnPrevious
             // 
