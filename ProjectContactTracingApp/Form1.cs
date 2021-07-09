@@ -16,5 +16,10 @@ namespace ProjectContactTracingApp
         {
             InitializeComponent();
         }
+
+        private void textBox14_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
