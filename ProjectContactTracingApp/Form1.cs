@@ -53,5 +53,10 @@ namespace ProjectContactTracingApp
         {
             personsBindingSource.MoveNext();
         }
+
+        private void btnPrevious_Click(object sender, EventArgs e)
+        {
+            personsBindingSource.MovePrevious();
+        }
     }
 }

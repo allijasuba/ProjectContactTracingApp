@@ -448,6 +448,7 @@ namespace ProjectContactTracingApp
             this.btnPrevious.TabIndex = 37;
             this.btnPrevious.Text = "PREVIOUS";
             this.btnPrevious.UseVisualStyleBackColor = true;
+            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
             // 
             // btnSearch
             // 
