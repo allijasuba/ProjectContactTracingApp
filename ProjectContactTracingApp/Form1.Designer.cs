@@ -59,14 +59,14 @@ namespace ProjectContactTracingApp
             this.txtSt = new System.Windows.Forms.TextBox();
             this.txtOthers = new System.Windows.Forms.TextBox();
             this.txtAyav = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnRemove = new System.Windows.Forms.Button();
+            this.btnFirst = new System.Windows.Forms.Button();
+            this.btnLast = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblFn
@@ -344,77 +344,77 @@ namespace ProjectContactTracingApp
             this.txtAyav.TabIndex = 30;
             this.txtAyav.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
             // 
-            // button1
+            // btnNew
             // 
-            this.button1.Location = new System.Drawing.Point(25, 574);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 44);
-            this.button1.TabIndex = 31;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnNew.Location = new System.Drawing.Point(25, 574);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(87, 44);
+            this.btnNew.TabIndex = 31;
+            this.btnNew.Text = "NEW";
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnSave
             // 
-            this.button2.Location = new System.Drawing.Point(148, 574);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(87, 44);
-            this.button2.TabIndex = 32;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnSave.Location = new System.Drawing.Point(148, 574);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(87, 44);
+            this.btnSave.TabIndex = 32;
+            this.btnSave.Text = "SAVE";
+            this.btnSave.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnRemove
             // 
-            this.button3.Location = new System.Drawing.Point(264, 574);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(87, 44);
-            this.button3.TabIndex = 33;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnRemove.Location = new System.Drawing.Point(264, 574);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(87, 44);
+            this.btnRemove.TabIndex = 33;
+            this.btnRemove.Text = "REMOVE";
+            this.btnRemove.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnFirst
             // 
-            this.button4.Location = new System.Drawing.Point(379, 574);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(87, 44);
-            this.button4.TabIndex = 34;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnFirst.Location = new System.Drawing.Point(379, 574);
+            this.btnFirst.Name = "btnFirst";
+            this.btnFirst.Size = new System.Drawing.Size(87, 44);
+            this.btnFirst.TabIndex = 34;
+            this.btnFirst.Text = "FIRST";
+            this.btnFirst.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnLast
             // 
-            this.button5.Location = new System.Drawing.Point(495, 574);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(87, 44);
-            this.button5.TabIndex = 35;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnLast.Location = new System.Drawing.Point(495, 574);
+            this.btnLast.Name = "btnLast";
+            this.btnLast.Size = new System.Drawing.Size(87, 44);
+            this.btnLast.TabIndex = 35;
+            this.btnLast.Text = "LAST";
+            this.btnLast.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnNext
             // 
-            this.button6.Location = new System.Drawing.Point(622, 574);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(87, 44);
-            this.button6.TabIndex = 36;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.btnNext.Location = new System.Drawing.Point(622, 574);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(87, 44);
+            this.btnNext.TabIndex = 36;
+            this.btnNext.Text = "NEXT";
+            this.btnNext.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnPrevious
             // 
-            this.button7.Location = new System.Drawing.Point(743, 574);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(87, 44);
-            this.button7.TabIndex = 37;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.btnPrevious.Location = new System.Drawing.Point(743, 574);
+            this.btnPrevious.Name = "btnPrevious";
+            this.btnPrevious.Size = new System.Drawing.Size(87, 44);
+            this.btnPrevious.TabIndex = 37;
+            this.btnPrevious.Text = "PREVIOUS";
+            this.btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnSearch
             // 
-            this.button8.Location = new System.Drawing.Point(872, 574);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(87, 44);
-            this.button8.TabIndex = 38;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.btnSearch.Location = new System.Drawing.Point(872, 574);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(87, 44);
+            this.btnSearch.TabIndex = 38;
+            this.btnSearch.Text = "SEARCH";
+            this.btnSearch.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -422,14 +422,14 @@ namespace ProjectContactTracingApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(984, 641);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnSearch);
+            this.Controls.Add(this.btnPrevious);
+            this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.btnLast);
+            this.Controls.Add(this.btnFirst);
+            this.Controls.Add(this.btnRemove);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnNew);
             this.Controls.Add(this.txtAyav);
             this.Controls.Add(this.txtOthers);
             this.Controls.Add(this.txtSt);
@@ -499,14 +499,14 @@ namespace ProjectContactTracingApp
         private System.Windows.Forms.TextBox txtSt;
         private System.Windows.Forms.TextBox txtOthers;
         private System.Windows.Forms.TextBox txtAyav;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnNew;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnRemove;
+        private System.Windows.Forms.Button btnFirst;
+        private System.Windows.Forms.Button btnLast;
+        private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.Button btnPrevious;
+        private System.Windows.Forms.Button btnSearch;
     }
 }
 
