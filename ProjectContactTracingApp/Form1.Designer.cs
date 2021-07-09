@@ -47,6 +47,8 @@ namespace ProjectContactTracingApp
             this.lblSt = new System.Windows.Forms.Label();
             this.lblHcc = new System.Windows.Forms.Label();
             this.txtFn = new System.Windows.Forms.TextBox();
+            this.personsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.projectContactTracingAppDataSet = new ProjectContactTracingApp.ProjectContactTracingAppDataSet();
             this.txtMi = new System.Windows.Forms.TextBox();
             this.txtLn = new System.Windows.Forms.TextBox();
             this.txtAge = new System.Windows.Forms.TextBox();
@@ -67,11 +69,7 @@ namespace ProjectContactTracingApp
             this.btnLast = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnPrevious = new System.Windows.Forms.Button();
-            this.btnSearch = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.projectContactTracingAppDataSet = new ProjectContactTracingApp.ProjectContactTracingAppDataSet();
-            this.personsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.personsTableAdapter = new ProjectContactTracingApp.ProjectContactTracingAppDataSetTableAdapters.PersonsTableAdapter();
             this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.fIRSTNAMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mIDDLEINITIALDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -87,9 +85,10 @@ namespace ProjectContactTracingApp
             this.sORETHROATDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.oTHERSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.projectContactTracingAppDataSet)).BeginInit();
+            this.personsTableAdapter = new ProjectContactTracingApp.ProjectContactTracingAppDataSetTableAdapters.PersonsTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.personsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectContactTracingAppDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblFn
@@ -263,6 +262,16 @@ namespace ProjectContactTracingApp
             this.txtFn.Size = new System.Drawing.Size(203, 26);
             this.txtFn.TabIndex = 17;
             // 
+            // personsBindingSource
+            // 
+            this.personsBindingSource.DataMember = "Persons";
+            this.personsBindingSource.DataSource = this.projectContactTracingAppDataSet;
+            // 
+            // projectContactTracingAppDataSet
+            // 
+            this.projectContactTracingAppDataSet.DataSetName = "ProjectContactTracingAppDataSet";
+            this.projectContactTracingAppDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // txtMi
             // 
             this.txtMi.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "MIDDLEINITIAL", true));
@@ -393,16 +402,17 @@ namespace ProjectContactTracingApp
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(148, 574);
+            this.btnSave.Location = new System.Drawing.Point(161, 574);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(87, 44);
             this.btnSave.TabIndex = 32;
             this.btnSave.Text = "SAVE";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnRemove
             // 
-            this.btnRemove.Location = new System.Drawing.Point(264, 574);
+            this.btnRemove.Location = new System.Drawing.Point(300, 574);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(87, 44);
             this.btnRemove.TabIndex = 33;
@@ -412,7 +422,7 @@ namespace ProjectContactTracingApp
             // 
             // btnFirst
             // 
-            this.btnFirst.Location = new System.Drawing.Point(379, 574);
+            this.btnFirst.Location = new System.Drawing.Point(443, 574);
             this.btnFirst.Name = "btnFirst";
             this.btnFirst.Size = new System.Drawing.Size(87, 44);
             this.btnFirst.TabIndex = 34;
@@ -422,7 +432,7 @@ namespace ProjectContactTracingApp
             // 
             // btnLast
             // 
-            this.btnLast.Location = new System.Drawing.Point(495, 574);
+            this.btnLast.Location = new System.Drawing.Point(591, 574);
             this.btnLast.Name = "btnLast";
             this.btnLast.Size = new System.Drawing.Size(87, 44);
             this.btnLast.TabIndex = 35;
@@ -432,7 +442,7 @@ namespace ProjectContactTracingApp
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(622, 574);
+            this.btnNext.Location = new System.Drawing.Point(737, 574);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(87, 44);
             this.btnNext.TabIndex = 36;
@@ -442,22 +452,13 @@ namespace ProjectContactTracingApp
             // 
             // btnPrevious
             // 
-            this.btnPrevious.Location = new System.Drawing.Point(743, 574);
+            this.btnPrevious.Location = new System.Drawing.Point(872, 574);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(87, 44);
             this.btnPrevious.TabIndex = 37;
             this.btnPrevious.Text = "PREVIOUS";
             this.btnPrevious.UseVisualStyleBackColor = true;
             this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.Location = new System.Drawing.Point(872, 574);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(87, 44);
-            this.btnSearch.TabIndex = 38;
-            this.btnSearch.Text = "SEARCH";
-            this.btnSearch.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
             // 
@@ -484,20 +485,6 @@ namespace ProjectContactTracingApp
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(929, 150);
             this.dataGridView1.TabIndex = 39;
-            // 
-            // projectContactTracingAppDataSet
-            // 
-            this.projectContactTracingAppDataSet.DataSetName = "ProjectContactTracingAppDataSet";
-            this.projectContactTracingAppDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // personsBindingSource
-            // 
-            this.personsBindingSource.DataMember = "Persons";
-            this.personsBindingSource.DataSource = this.projectContactTracingAppDataSet;
-            // 
-            // personsTableAdapter
-            // 
-            this.personsTableAdapter.ClearBeforeFill = true;
             // 
             // iDDataGridViewTextBoxColumn
             // 
@@ -589,6 +576,10 @@ namespace ProjectContactTracingApp
             this.aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn.HeaderText = "ARE YOU ALREADY VACCINATED?";
             this.aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn.Name = "aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn";
             // 
+            // personsTableAdapter
+            // 
+            this.personsTableAdapter.ClearBeforeFill = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -596,7 +587,6 @@ namespace ProjectContactTracingApp
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(984, 641);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnLast);
@@ -637,9 +627,9 @@ namespace ProjectContactTracingApp
             this.Name = "Form1";
             this.Text = "Contact Tracing ";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.projectContactTracingAppDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectContactTracingAppDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -684,7 +674,6 @@ namespace ProjectContactTracingApp
         private System.Windows.Forms.Button btnLast;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnPrevious;
-        private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DataGridView dataGridView1;
         private ProjectContactTracingAppDataSet projectContactTracingAppDataSet;
         private System.Windows.Forms.BindingSource personsBindingSource;

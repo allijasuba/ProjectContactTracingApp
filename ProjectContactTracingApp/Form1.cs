@@ -58,5 +58,12 @@ namespace ProjectContactTracingApp
         {
             personsBindingSource.MovePrevious();
         }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            personsBindingSource.EndEdit();
+            personsTableAdapter.Update(projectContactTracingAppDataSet.Persons);
+            MessageBox.Show("Succesfully Save!");
+        }
     }
 }
