@@ -43,5 +43,10 @@ namespace ProjectContactTracingApp
         {
             personsBindingSource.MoveFirst();
         }
+
+        private void btnLast_Click(object sender, EventArgs e)
+        {
+            personsBindingSource.MoveLast();
+        }
     }
 }

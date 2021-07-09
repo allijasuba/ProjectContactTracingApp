@@ -428,6 +428,7 @@ namespace ProjectContactTracingApp
             this.btnLast.TabIndex = 35;
             this.btnLast.Text = "LAST";
             this.btnLast.UseVisualStyleBackColor = true;
+            this.btnLast.Click += new System.EventHandler(this.btnLast_Click);
             // 
             // btnNext
             // 
