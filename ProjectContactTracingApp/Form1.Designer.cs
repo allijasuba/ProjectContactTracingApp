@@ -408,6 +408,7 @@ namespace ProjectContactTracingApp
             this.btnRemove.TabIndex = 33;
             this.btnRemove.Text = "REMOVE";
             this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // btnFirst
             // 

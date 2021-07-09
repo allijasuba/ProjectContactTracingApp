@@ -33,5 +33,10 @@ namespace ProjectContactTracingApp
         {
             personsBindingSource.AddNew();
         }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            personsBindingSource.RemoveCurrent();
+        }
     }
 }
