@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\bin\Debug\ProjectContactTracingApp.accdb
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\bin\Debug\ProjectContactTracingApp.exe.config
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\bin\Debug\ProjectContactTracingApp.exe
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\bin\Debug\ProjectContactTracingApp.pdb
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\obj\Debug\ProjectContactTracingApp.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\obj\Debug\ProjectContactTracingApp.Form1.resources
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\obj\Debug\ProjectContactTracingApp.Properties.Resources.resources
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\obj\Debug\ProjectContactTracingApp.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\obj\Debug\ProjectContactTracingApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\obj\Debug\ProjectContactTracingApp.exe
+C:\Users\User\source\repos\ProjectContactTracingApp\ProjectContactTracingApp\obj\Debug\ProjectContactTracingApp.pdb

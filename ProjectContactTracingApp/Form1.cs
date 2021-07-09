@@ -28,5 +28,10 @@ namespace ProjectContactTracingApp
             this.personsTableAdapter.Fill(this.projectContactTracingAppDataSet.Persons);
 
         }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            personsBindingSource.AddNew();
+        }
     }
 }

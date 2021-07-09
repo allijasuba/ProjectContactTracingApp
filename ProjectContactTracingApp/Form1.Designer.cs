@@ -256,6 +256,7 @@ namespace ProjectContactTracingApp
             // 
             // txtFn
             // 
+            this.txtFn.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "FIRSTNAME", true));
             this.txtFn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFn.Location = new System.Drawing.Point(141, 27);
             this.txtFn.Name = "txtFn";
@@ -264,6 +265,7 @@ namespace ProjectContactTracingApp
             // 
             // txtMi
             // 
+            this.txtMi.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "MIDDLEINITIAL", true));
             this.txtMi.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMi.Location = new System.Drawing.Point(488, 27);
             this.txtMi.Name = "txtMi";
@@ -272,6 +274,7 @@ namespace ProjectContactTracingApp
             // 
             // txtLn
             // 
+            this.txtLn.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "LASTNAME", true));
             this.txtLn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLn.Location = new System.Drawing.Point(737, 27);
             this.txtLn.Name = "txtLn";
@@ -280,6 +283,7 @@ namespace ProjectContactTracingApp
             // 
             // txtAge
             // 
+            this.txtAge.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "AGE", true));
             this.txtAge.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAge.Location = new System.Drawing.Point(78, 74);
             this.txtAge.Name = "txtAge";
@@ -288,6 +292,7 @@ namespace ProjectContactTracingApp
             // 
             // txtSex
             // 
+            this.txtSex.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "SEX", true));
             this.txtSex.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSex.Location = new System.Drawing.Point(401, 75);
             this.txtSex.Name = "txtSex";
@@ -296,6 +301,7 @@ namespace ProjectContactTracingApp
             // 
             // txtTemp
             // 
+            this.txtTemp.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "TEMPERATURE", true));
             this.txtTemp.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTemp.Location = new System.Drawing.Point(769, 73);
             this.txtTemp.Name = "txtTemp";
@@ -304,6 +310,7 @@ namespace ProjectContactTracingApp
             // 
             // txtCn
             // 
+            this.txtCn.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "CONTACT NUMBER", true));
             this.txtCn.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCn.Location = new System.Drawing.Point(203, 117);
             this.txtCn.Name = "txtCn";
@@ -312,6 +319,7 @@ namespace ProjectContactTracingApp
             // 
             // txtAddress
             // 
+            this.txtAddress.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "ADDRESS", true));
             this.txtAddress.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAddress.Location = new System.Drawing.Point(123, 157);
             this.txtAddress.Name = "txtAddress";
@@ -320,6 +328,7 @@ namespace ProjectContactTracingApp
             // 
             // txtFever
             // 
+            this.txtFever.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "FEVER", true));
             this.txtFever.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFever.Location = new System.Drawing.Point(99, 249);
             this.txtFever.Name = "txtFever";
@@ -328,6 +337,7 @@ namespace ProjectContactTracingApp
             // 
             // txtDc
             // 
+            this.txtDc.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "DRY COUGH", true));
             this.txtDc.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDc.Location = new System.Drawing.Point(334, 249);
             this.txtDc.Name = "txtDc";
@@ -336,6 +346,7 @@ namespace ProjectContactTracingApp
             // 
             // txtHa
             // 
+            this.txtHa.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "HEADACHE", true));
             this.txtHa.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHa.Location = new System.Drawing.Point(602, 249);
             this.txtHa.Name = "txtHa";
@@ -344,6 +355,7 @@ namespace ProjectContactTracingApp
             // 
             // txtSt
             // 
+            this.txtSt.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "SORE THROAT", true));
             this.txtSt.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSt.Location = new System.Drawing.Point(839, 249);
             this.txtSt.Name = "txtSt";
@@ -352,6 +364,7 @@ namespace ProjectContactTracingApp
             // 
             // txtOthers
             // 
+            this.txtOthers.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "OTHERS", true));
             this.txtOthers.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOthers.Location = new System.Drawing.Point(113, 297);
             this.txtOthers.Name = "txtOthers";
@@ -360,6 +373,7 @@ namespace ProjectContactTracingApp
             // 
             // txtAyav
             // 
+            this.txtAyav.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personsBindingSource, "ARE YOU ALREADY VACCINATED?", true));
             this.txtAyav.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAyav.Location = new System.Drawing.Point(325, 346);
             this.txtAyav.Name = "txtAyav";
@@ -375,6 +389,7 @@ namespace ProjectContactTracingApp
             this.btnNew.TabIndex = 31;
             this.btnNew.Text = "NEW";
             this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // btnSave
             // 
