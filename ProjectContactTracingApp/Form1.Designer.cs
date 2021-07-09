@@ -29,6 +29,7 @@ namespace ProjectContactTracingApp
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.lblFn = new System.Windows.Forms.Label();
             this.lblCn = new System.Windows.Forms.Label();
             this.lblTemp = new System.Windows.Forms.Label();
@@ -68,7 +69,27 @@ namespace ProjectContactTracingApp
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.projectContactTracingAppDataSet = new ProjectContactTracingApp.ProjectContactTracingAppDataSet();
+            this.personsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.personsTableAdapter = new ProjectContactTracingApp.ProjectContactTracingAppDataSetTableAdapters.PersonsTableAdapter();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fIRSTNAMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mIDDLEINITIALDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.lASTNAMEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.aGEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sEXDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tEMPERATUREDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cONTACTNUMBERDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.aDDRESSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.fEVERDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dRYCOUGHDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hEADACHEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sORETHROATDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.oTHERSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectContactTracingAppDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // lblFn
@@ -420,11 +441,133 @@ namespace ProjectContactTracingApp
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iDDataGridViewTextBoxColumn,
+            this.fIRSTNAMEDataGridViewTextBoxColumn,
+            this.mIDDLEINITIALDataGridViewTextBoxColumn,
+            this.lASTNAMEDataGridViewTextBoxColumn,
+            this.aGEDataGridViewTextBoxColumn,
+            this.sEXDataGridViewTextBoxColumn,
+            this.tEMPERATUREDataGridViewTextBoxColumn,
+            this.cONTACTNUMBERDataGridViewTextBoxColumn,
+            this.aDDRESSDataGridViewTextBoxColumn,
+            this.fEVERDataGridViewTextBoxColumn,
+            this.dRYCOUGHDataGridViewTextBoxColumn,
+            this.hEADACHEDataGridViewTextBoxColumn,
+            this.sORETHROATDataGridViewTextBoxColumn,
+            this.oTHERSDataGridViewTextBoxColumn,
+            this.aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn});
+            this.dataGridView1.DataSource = this.personsBindingSource;
             this.dataGridView1.Location = new System.Drawing.Point(30, 397);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(929, 150);
             this.dataGridView1.TabIndex = 39;
+            // 
+            // projectContactTracingAppDataSet
+            // 
+            this.projectContactTracingAppDataSet.DataSetName = "ProjectContactTracingAppDataSet";
+            this.projectContactTracingAppDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // personsBindingSource
+            // 
+            this.personsBindingSource.DataMember = "Persons";
+            this.personsBindingSource.DataSource = this.projectContactTracingAppDataSet;
+            // 
+            // personsTableAdapter
+            // 
+            this.personsTableAdapter.ClearBeforeFill = true;
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            // 
+            // fIRSTNAMEDataGridViewTextBoxColumn
+            // 
+            this.fIRSTNAMEDataGridViewTextBoxColumn.DataPropertyName = "FIRSTNAME";
+            this.fIRSTNAMEDataGridViewTextBoxColumn.HeaderText = "FIRSTNAME";
+            this.fIRSTNAMEDataGridViewTextBoxColumn.Name = "fIRSTNAMEDataGridViewTextBoxColumn";
+            // 
+            // mIDDLEINITIALDataGridViewTextBoxColumn
+            // 
+            this.mIDDLEINITIALDataGridViewTextBoxColumn.DataPropertyName = "MIDDLEINITIAL";
+            this.mIDDLEINITIALDataGridViewTextBoxColumn.HeaderText = "MIDDLEINITIAL";
+            this.mIDDLEINITIALDataGridViewTextBoxColumn.Name = "mIDDLEINITIALDataGridViewTextBoxColumn";
+            // 
+            // lASTNAMEDataGridViewTextBoxColumn
+            // 
+            this.lASTNAMEDataGridViewTextBoxColumn.DataPropertyName = "LASTNAME";
+            this.lASTNAMEDataGridViewTextBoxColumn.HeaderText = "LASTNAME";
+            this.lASTNAMEDataGridViewTextBoxColumn.Name = "lASTNAMEDataGridViewTextBoxColumn";
+            // 
+            // aGEDataGridViewTextBoxColumn
+            // 
+            this.aGEDataGridViewTextBoxColumn.DataPropertyName = "AGE";
+            this.aGEDataGridViewTextBoxColumn.HeaderText = "AGE";
+            this.aGEDataGridViewTextBoxColumn.Name = "aGEDataGridViewTextBoxColumn";
+            // 
+            // sEXDataGridViewTextBoxColumn
+            // 
+            this.sEXDataGridViewTextBoxColumn.DataPropertyName = "SEX";
+            this.sEXDataGridViewTextBoxColumn.HeaderText = "SEX";
+            this.sEXDataGridViewTextBoxColumn.Name = "sEXDataGridViewTextBoxColumn";
+            // 
+            // tEMPERATUREDataGridViewTextBoxColumn
+            // 
+            this.tEMPERATUREDataGridViewTextBoxColumn.DataPropertyName = "TEMPERATURE";
+            this.tEMPERATUREDataGridViewTextBoxColumn.HeaderText = "TEMPERATURE";
+            this.tEMPERATUREDataGridViewTextBoxColumn.Name = "tEMPERATUREDataGridViewTextBoxColumn";
+            // 
+            // cONTACTNUMBERDataGridViewTextBoxColumn
+            // 
+            this.cONTACTNUMBERDataGridViewTextBoxColumn.DataPropertyName = "CONTACT NUMBER";
+            this.cONTACTNUMBERDataGridViewTextBoxColumn.HeaderText = "CONTACT NUMBER";
+            this.cONTACTNUMBERDataGridViewTextBoxColumn.Name = "cONTACTNUMBERDataGridViewTextBoxColumn";
+            // 
+            // aDDRESSDataGridViewTextBoxColumn
+            // 
+            this.aDDRESSDataGridViewTextBoxColumn.DataPropertyName = "ADDRESS";
+            this.aDDRESSDataGridViewTextBoxColumn.HeaderText = "ADDRESS";
+            this.aDDRESSDataGridViewTextBoxColumn.Name = "aDDRESSDataGridViewTextBoxColumn";
+            // 
+            // fEVERDataGridViewTextBoxColumn
+            // 
+            this.fEVERDataGridViewTextBoxColumn.DataPropertyName = "FEVER";
+            this.fEVERDataGridViewTextBoxColumn.HeaderText = "FEVER";
+            this.fEVERDataGridViewTextBoxColumn.Name = "fEVERDataGridViewTextBoxColumn";
+            // 
+            // dRYCOUGHDataGridViewTextBoxColumn
+            // 
+            this.dRYCOUGHDataGridViewTextBoxColumn.DataPropertyName = "DRY COUGH";
+            this.dRYCOUGHDataGridViewTextBoxColumn.HeaderText = "DRY COUGH";
+            this.dRYCOUGHDataGridViewTextBoxColumn.Name = "dRYCOUGHDataGridViewTextBoxColumn";
+            // 
+            // hEADACHEDataGridViewTextBoxColumn
+            // 
+            this.hEADACHEDataGridViewTextBoxColumn.DataPropertyName = "HEADACHE";
+            this.hEADACHEDataGridViewTextBoxColumn.HeaderText = "HEADACHE";
+            this.hEADACHEDataGridViewTextBoxColumn.Name = "hEADACHEDataGridViewTextBoxColumn";
+            // 
+            // sORETHROATDataGridViewTextBoxColumn
+            // 
+            this.sORETHROATDataGridViewTextBoxColumn.DataPropertyName = "SORE THROAT";
+            this.sORETHROATDataGridViewTextBoxColumn.HeaderText = "SORE THROAT";
+            this.sORETHROATDataGridViewTextBoxColumn.Name = "sORETHROATDataGridViewTextBoxColumn";
+            // 
+            // oTHERSDataGridViewTextBoxColumn
+            // 
+            this.oTHERSDataGridViewTextBoxColumn.DataPropertyName = "OTHERS";
+            this.oTHERSDataGridViewTextBoxColumn.HeaderText = "OTHERS";
+            this.oTHERSDataGridViewTextBoxColumn.Name = "oTHERSDataGridViewTextBoxColumn";
+            // 
+            // aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn
+            // 
+            this.aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn.DataPropertyName = "ARE YOU ALREADY VACCINATED?";
+            this.aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn.HeaderText = "ARE YOU ALREADY VACCINATED?";
+            this.aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn.Name = "aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn";
             // 
             // Form1
             // 
@@ -473,7 +616,10 @@ namespace ProjectContactTracingApp
             this.Controls.Add(this.lblFn);
             this.Name = "Form1";
             this.Text = "Contact Tracing ";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.projectContactTracingAppDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personsBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -520,6 +666,24 @@ namespace ProjectContactTracingApp
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private ProjectContactTracingAppDataSet projectContactTracingAppDataSet;
+        private System.Windows.Forms.BindingSource personsBindingSource;
+        private ProjectContactTracingAppDataSetTableAdapters.PersonsTableAdapter personsTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fIRSTNAMEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mIDDLEINITIALDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn lASTNAMEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn aGEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sEXDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tEMPERATUREDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cONTACTNUMBERDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn aDDRESSDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn fEVERDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dRYCOUGHDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn hEADACHEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sORETHROATDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn oTHERSDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn aREYOUALREADYVACCINATEDDataGridViewTextBoxColumn;
     }
 }
 
